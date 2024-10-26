@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="list.svg">
+		<ignore>
+			<code>x-005</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="list.svg">
+		<ignore>
+			<code>x-014</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="page.svg">
+		<ignore>
+			<code>x-005</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="page.svg">
+		<ignore>
+			<code>x-014</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="wikipedia.svg">
+		<ignore>
+			<code>x-005</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="wikipedia.svg">
+		<ignore>
+			<code>x-014</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="wikisource.svg">
+		<ignore>
+			<code>x-005</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="wikisource.svg">
+		<ignore>
+			<code>x-014</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="project-gutenberg.svg">
+		<ignore>
+			<code>x-005</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="project-gutenberg.svg">
+		<ignore>
+			<code>x-014</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="epub.svg">
+		<ignore>
+			<code>x-005</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="epub.svg">
+		<ignore>
+			<code>x-014</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="amazon.svg">
+		<ignore>
+			<code>x-005</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="amazon.svg">
+		<ignore>
+			<code>x-014</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="github.svg">
+		<ignore>
+			<code>x-005</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="github.svg">
+		<ignore>
+			<code>x-014</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="google.svg">
+		<ignore>
+			<code>x-005</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="google.svg">
+		<ignore>
+			<code>x-014</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="hathitrust.svg">
+		<ignore>
+			<code>x-005</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="hathitrust.svg">
+		<ignore>
+			<code>x-014</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="internet-archive.svg">
+		<ignore>
+			<code>x-005</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="internet-archive.svg">
+		<ignore>
+			<code>x-014</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="kobo.svg">
+		<ignore>
+			<code>x-005</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="kobo.svg">
+		<ignore>
+			<code>x-014</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="lecionoj-por-infanoj-en-simplaj-vortoj.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>non-English titlecase</reason>
+		</ignore>
+	</file>
+	<!-- cover.svg -->
+	<file path="cover.svg">
+		<ignore>
+			<code>s-002</code>
+			<reason>custom cover</reason>
+		</ignore>
+	</file>
+	<file path="cover.svg">
+		<ignore>
+			<code>s-028</code>
+			<reason>not useing titlepage.svg</reason>
+		</ignore>
+	</file>
+	<!-- colophon.xhtml -->
+	<file path="colophon.xhtml">
+		<ignore>
+			<code>t-064</code>
+			<reason>titlecase on non-English page</reason>
+		</ignore>
+	</file>
+	<!-- content.opf -->
+	<file path="content.opf">
+		<ignore>
+			<code>m-042</code>
+			<reason>non-standard</reason>
+		</ignore>
+	</file>
+	<file path="content.opf">
+		<ignore>
+			<code>m-009</code>
+			<reason>not SE-hosted</reason>
+		</ignore>
+	</file>
+	<!-- uncopyright.xhtml -->
+	<!-- logo.svg -->
+	<!-- imprint.xhtml -->
+</se-lint-ignore>
