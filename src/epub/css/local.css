@@ -13,10 +13,6 @@ figure img{
 	max-width: 100%;
 }
 
-#colophon dl *{
-	text-align: initial;
-}
-
 dl{
 	margin: 1em auto;
 	width: fit-content;
@@ -38,11 +34,24 @@ section[epub|type~="titlepage"] h1{
 	position: inherit;
 }
 
-#uncopyright{
-	text-align: center;
+/* IMPRINT */
+section[epub|type~="imprint"] img {
+	display: block;
+	height: 4em;
+    width: auto;
+	margin: 0 auto;
 }
 
-#uncopyright img{
+/* COLOPHON  */
+#colophon dl *{
+	text-align: initial;
+}
+
+/* UNCOPYRIGHT  */
+section[epub|type~="copyright-page"] {
+	text-align: center;
+}
+section[epub|type~="copyright-page"] img{
 	display: block;
 	width:50%;
 	max-width: 40em;

@@ -6,19 +6,6 @@
 			<reason>non-English titlecase</reason>
 		</ignore>
 	</file>
-	<!-- cover.svg -->
-	<file path="cover.svg">
-		<ignore>
-			<code>s-002</code>
-			<reason>custom cover</reason>
-		</ignore>
-	</file>
-	<file path="cover.svg">
-		<ignore>
-			<code>s-028</code>
-			<reason>not useing titlepage.svg</reason>
-		</ignore>
-	</file>
 	<!-- colophon.xhtml -->
 	<file path="colophon.xhtml">
 		<ignore>
@@ -33,7 +20,27 @@
 			<reason>not SE-hosted</reason>
 		</ignore>
 	</file>
-	<!-- uncopyright.xhtml -->
-	<!-- logo.svg -->
-	<!-- imprint.xhtml -->
+
+	<!-- SVG FILES -->
+	<file path="cover.svg">
+		<ignore>
+			<code>s-002</code>
+			<reason>custom cover</reason>
+		</ignore>
+	</file>
+	<file path="cover.svg">
+		<ignore>
+			<code>s-028</code>
+			<reason>not useing titlepage_svg</reason>
+		</ignore>
+	</file>
+
+	<!-- DISTRIBUTION FILES -->
+	<file path="*.*">
+		<ignore>
+			<code>f-001</code>
+			<reason>distribution files</reason>
+		</ignore>
+	</file>
+
 </se-lint-ignore>
