@@ -4,8 +4,19 @@
 		<dc:identifier id="uid">url:https://kingrpaul.github.io/anonima_lecionoj-por-infanoj-en-simplaj-vortoj</dc:identifier>
 		<dc:date>2024-10-25T19:17:53Z</dc:date>
 		<meta property="dcterms:modified">2024-10-25T19:17:53Z</meta>
-		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
-		<!-- ***** -->
+		<dc:rights>Except as otherwise noted, the sources used in this ebook are believed to be in the US public domain. The ebook itself is dedicated to to the worldwide public domain CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<!-- 	PUBLISH -->
+		<dc:publisher id="publisher">Paul King</dc:publisher>
+		<meta property="file-as" refines="#publisher">King, Paul</meta>
+		<meta property="se:url.homepage" refines="#publisher">https://kingrpaul.github.io</meta>
+		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
+		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
+		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
+		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
+		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
+		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com</meta>
+		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
+		<!-- ACCESSIBILITY -->
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="schema:accessMode">textual</meta>
 		<meta property="schema:accessMode">visual</meta>
@@ -18,55 +29,53 @@
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
-		<!-- ***** -->
+		<!-- DESCRIPTION -->
 		<dc:title id="title">Lecionoj Por Infanoj, en Simplaj Vortoj</dc:title>
-		<meta property="file-as" refines="#title">Lecionoj Por Infanoj, en Simplaj Vortoj</meta>
-		<dc:subject id="subject-1">Conduct of life -- Juvenile fiction</dc:subject>
-		<dc:subject id="subject-2">Children's stories</dc:subject>
-		<dc:subject id="subject-3">Children -- Conduct of life -- Juvenile fiction</dc:subject>
-		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">sh2008100297</meta>
-		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">sh85023780</meta>
-		<meta property="authority" refines="#subject-3">LCSH</meta>
-		<meta property="term" refines="#subject-3">Unknown</meta>
+		<meta property="file-as" refines="#title">Lecionoj Por Infanoj en Simplaj Vortoj</meta>
+		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Shorts</meta>
 		<dc:description id="description">An Esperanto translation of Nursery Lessons, in Words of One Syllable.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;An Esperanto translation of Nursery Lessons, in Words of One Syllable.&lt;/p&gt;
 		</meta>
 		<dc:language>eo</dc:language>
+		<!-- SOURCES -->
 		<dc:source>https://www.gutenberg.org/ebooks/54605</dc:source>
 		<dc:source>https://archive.org/details/nurserylessonsin00londiala</dc:source>
-		<meta property="se:production-notes">Title mofified changing single syllable to simple words.</meta>
-		<meta property="se:word-count">388</meta>
-		<meta property="se:reading-ease.flesch">48.91</meta>
-		<meta property="se:url.vcs.github">https://github.com/anonima_lecionoj-por-infanoj-en-simplaj-vortoj</meta>
-		<!-- ***** -->
+		<meta property="se:production-notes">Title modified. changing "single syllables" to "simple words".</meta>
+		<!-- AUTHOR -->
 		<dc:creator id="author">Anonima</dc:creator>
 		<meta property="file-as" refines="#author">Anonima</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Anonymous_work</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n87930409</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">wat</meta>
-		<!-- ***** -->
+		<!-- TRANSCRIBER -->
 		<dc:contributor id="transcriber-1">Corbin Hunter</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Hunter, Corbin</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<!-- ***** -->
+		<!-- COVER ART -->
+		<dc:contributor id="artist">Anonima</dc:contributor>
+		<meta property="file-as" refines="#artist">Anonima</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Anonymous_work</meta>
+		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
+		<!-- TRANSLATION -->
+		<dc:contributor id="translator">Paul King</dc:contributor>
+		<meta property="file-as" refines="#translator">King, Paul</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
+		<!-- PRODUCTION -->
 		<dc:contributor id="producer-1">Paul King</dc:contributor>
 		<meta property="file-as" refines="#producer-1">King, Paul</meta>
 		<meta property="se:url.homepage" refines="#producer-1">https://kingrpaul.github.io/</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">trl</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkd</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">mdc</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">pbl</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">mdc</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">pbl</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
@@ -83,11 +92,12 @@
 		<item href="images/illustration-7.jpg" id="illustration-7.jpg" media-type="image/jpeg"/>
 		<item href="images/illustration-8.jpg" id="illustration-8.jpg" media-type="image/jpeg"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
+		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
 		<item href="images/uncopyright.svg" id="uncopyright.svg" media-type="image/svg+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/lecionoj-por-infanoj-en-simplaj-vortoj.xhtml" id="lecionoj-por-infanoj-en-simplaj-vortoj.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 	</manifest>
